@@ -7,6 +7,8 @@ https://docs.oracle.com/cd/E23824_01/html/819-3196/docinfo.html#scrolltoc
 
 https://dlc.openindiana.org/docs/osol/20090715/DRIVERTUT/html/ffdqq.html
 
+https://illumos.org/man
+
 https://www.cs.dartmouth.edu/~sergey/cs108/2009/Device_Drivers_Hands_on_Lab.pdf
 
 
