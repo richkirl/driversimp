@@ -13,7 +13,7 @@ https://www.cs.dartmouth.edu/~sergey/cs108/2009/Device_Drivers_Hands_on_Lab.pdf
 
 gcc -D_KERNEL -m64 -mcmodel=kernel -c -O name.c
 
-ld -r -o nameDRIVER name.o (ld -dy skeleton dscel.o -N misc/\name\)
+ld -r -o nameDRIVER name.o (ld -dy -r -o xx xx.o -N misc/mySymbol)
 
 
 (sudo rm /usr/kernel/drv/amd64/skeleton)
