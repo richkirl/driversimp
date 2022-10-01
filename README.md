@@ -46,7 +46,7 @@ sudo rem_drv skeleton
 
 `# add_drv -i\"pci1028,20e\" skeleton
 
-                      ^wireless-network controller for example
+                      ^wireless-network controller for example(2)
 
 ![Screenshot at 2022-10-01 14-41-15](https://user-images.githubusercontent.com/61930048/193414817-776f74c4-f766-4013-b204-34b5cf124ceb.png)
 
@@ -57,3 +57,9 @@ sudo rem_drv skeleton
 (https://docs.oracle.com/cd/E23824_01/html/821-1461/ld-1.html#REFMAN1ld-1)
 
 (https://docs.oracle.com/cd/E23824_01/html/819-0690/chapter2-90421.html#scrolltoc)
+
+2
+
+![Screenshot at 2022-10-01 14-47-46](https://user-images.githubusercontent.com/61930048/193415117-fdf54c1f-999a-4c29-bcf7-b61283fc41b5.png)
+
+
