@@ -14,6 +14,7 @@ https://www.cs.dartmouth.edu/~sergey/cs108/2009/Device_Drivers_Hands_on_Lab.pdf
 gcc -D_KERNEL -m64 -mcmodel=kernel -c -O name.c
 
 ld -r -o nameDRIVER name.o (ld -dy -r -o nameDRIVER name.o -N misc/mySymbols)
+(https://docs.oracle.com/cd/E23824_01/html/821-1461/ld-1.html#REFMAN1ld-1)
 
 
 (sudo rm /usr/kernel/drv/amd64/skeleton)
