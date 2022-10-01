@@ -44,6 +44,9 @@ sudo rem_drv skeleton
 ![Screenshot at 2022-10-01 10-15-08](https://user-images.githubusercontent.com/61930048/193404563-acf15e8a-6e54-4f8e-8bf6-666c895969b3.png)
 
 
+`# add_drv -i\"pci1028,20e\" skeleton
+                      ^wireless-network controller for example
+
 ![Screenshot at 2022-10-01 14-41-15](https://user-images.githubusercontent.com/61930048/193414817-776f74c4-f766-4013-b204-34b5cf124ceb.png)
 
 
