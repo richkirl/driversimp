@@ -26,6 +26,9 @@ sudo cp skeleton.conf /usr/kernel/drv/
 
 sudo add_drv skeleton
 
+modinfo | grep nameDRIVER
+
+
 sudo rem_drv skeleton
 
 (sudo update_drv skeleton)
