@@ -13,8 +13,8 @@ https://www.cs.dartmouth.edu/~sergey/cs108/2009/Device_Drivers_Hands_on_Lab.pdf
 
 gcc -D_KERNEL -m64 -mcmodel=kernel -c -O name.c
 
-ld -r -o nameDRIVER name.o (ld -dy -r -o nameDRIVER name.o -N misc/mySymbols)
-(https://docs.oracle.com/cd/E23824_01/html/821-1461/ld-1.html#REFMAN1ld-1)
+ld -r -o nameDRIVER name.o (ld -dy -r -o nameDRIVER name.o -N misc/mySymbols)(1)
+
 
 
 (sudo rm /usr/kernel/drv/amd64/skeleton)
@@ -44,3 +44,9 @@ sudo rem_drv skeleton
 ![Screenshot at 2022-10-01 10-15-08](https://user-images.githubusercontent.com/61930048/193404563-acf15e8a-6e54-4f8e-8bf6-666c895969b3.png)
 
 
+
+1
+
+(https://docs.oracle.com/cd/E23824_01/html/821-1461/ld-1.html#REFMAN1ld-1)
+
+(https://docs.oracle.com/cd/E23824_01/html/819-0690/chapter2-90421.html#scrolltoc)
