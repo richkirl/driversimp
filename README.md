@@ -10,6 +10,7 @@ https://dlc.openindiana.org/docs/osol/20090715/DRIVERTUT/html/ffdqq.html
 https://www.cs.dartmouth.edu/~sergey/cs108/2009/Device_Drivers_Hands_on_Lab.pdf
 
 
+
 gcc -D_KERNEL -m64 -mcmodel=kernel -c -O name.c
 
 ld -r -o skeleton dscel.o (ld -dy skeleton dscel.o -N misc/<name>)
