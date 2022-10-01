@@ -15,7 +15,7 @@ https://www.cs.dartmouth.edu/~sergey/cs108/2009/Device_Drivers_Hands_on_Lab.pdf
 
 gcc -D_KERNEL -m64 -mcmodel=kernel -c -O name.c
 
-ld -r -o nameDRIVER name.o (ld -dy -r -o nameDRIVER name.o -N misc/mySymbols)     >(1)<
+ld -r -o nameDRIVER name.o (ld -dy -r -o nameDRIVER name.o -N misc/mySymbols)             >(1)<
 
 
 
