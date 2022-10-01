@@ -60,6 +60,9 @@ sudo rem_drv skeleton
 
 2
 
+
+prtconf -vp
+
 ![Screenshot at 2022-10-01 14-47-46](https://user-images.githubusercontent.com/61930048/193415117-fdf54c1f-999a-4c29-bcf7-b61283fc41b5.png)
 
 
