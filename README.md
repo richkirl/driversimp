@@ -15,7 +15,7 @@ https://www.cs.dartmouth.edu/~sergey/cs108/2009/Device_Drivers_Hands_on_Lab.pdf
 
 gcc -D_KERNEL -m64 -mcmodel=kernel -c -O name.c
 
-ld -r -o nameDRIVER name.o (ld -dy -r -o nameDRIVER name.o -N misc/mySymbols)(1)
+ld -r -o nameDRIVER name.o (ld -dy -r -o nameDRIVER name.o -N misc/mySymbols)     >(1)<
 
 
 
@@ -48,7 +48,7 @@ sudo rem_drv skeleton
 
 `# add_drv -i \ "pci1028,20e \ " skeleton
 
-                      ^wireless-network controller for example(2)
+                      ^wireless-network controller for example      >(2)<
 
 ![Screenshot at 2022-10-01 14-41-15](https://user-images.githubusercontent.com/61930048/193414817-776f74c4-f766-4013-b204-34b5cf124ceb.png)
 
