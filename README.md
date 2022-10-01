@@ -34,3 +34,9 @@ sudo rem_drv skeleton
 '# echo ddd > /devices/pseudo/skeleton@0:skel
 
 '# cat /devices/pseudo/skeleton@0:skel
+
+
+
+![Screenshot at 2022-10-01 10-15-08](https://user-images.githubusercontent.com/61930048/193404563-acf15e8a-6e54-4f8e-8bf6-666c895969b3.png)
+
+
